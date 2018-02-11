@@ -6,10 +6,10 @@ class SentimentAnalyzer:
     def __init__(self,tag=""):
         self.tag=tag
         self.noOfTweets=100
-        self.__consumerKey = '4EZTwa0fDcUOdXMyoPzV0Symi'
-        self.__consumerSecret = 'IG1rv7vIAhsqmp1HvYWuaqaNHqF0o0l0nAXwqwkFnQaIidlrXz'
-        self.__accessToken = '153345272-q0iVqlZwxOEfXkLQWFfe6icWauYZALD7nqmJu3o5'
-        self.__accessTokenSecret = 'LX0G6skTYIdqpTb6Mh4ciuM5kfUa67PXAMvdheKkfL5e7'
+        self.__consumerKey = ''#Enter consumer key here
+        self.__consumerSecret = '' #Enter Consumer secret here
+        self.__accessToken = '' #Enter access token here
+        self.__accessTokenSecret = '' #Enter access token here
         self.neutral = 0
         self.positive = 0
         self.negative = 0
