@@ -20,7 +20,7 @@ def getText():
 root = Tk() #initializing the tkinter object
 
 root.geometry("320x120+540+240") #setting the size of window
-root.title("Twitter Sentimental Analysis") #providing the title of window
+root.title("Twitter Sentiment Analysis") #providing the title of window
 root.resizable(0,0) #disabling the resize option
 
 label = Label(root,text="Enter #tag")
